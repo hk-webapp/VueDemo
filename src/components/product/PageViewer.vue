@@ -10,7 +10,7 @@
     <p>content content content content content content</p>
 
     <hr />
-    <router-link to="/">Back</router-link>
+    <router-link :to="{name:'rootPage'}" >Back</router-link>
   </div>
 </template>
 
