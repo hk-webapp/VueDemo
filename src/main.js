@@ -26,6 +26,7 @@ Vue.use(VeeValidate, {
 Vue.config.productionTip = false;
 
 const router = new VueRouter({
+  base:"/VueDemo/",
   mode: 'history',
   routes
 });
